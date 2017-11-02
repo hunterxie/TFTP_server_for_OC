@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A55B2761FA88EC100092E96 /* TFTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A55B2731FA88EC100092E96 /* TFTPClient.m */; };
+		5A55B2771FA88EC100092E96 /* TFTPPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A55B2751FA88EC100092E96 /* TFTPPacket.m */; };
+		5AD9FB681FA983DA00DEDD3C /* a.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5AD9FB671FA983DA00DEDD3C /* a.txt */; };
+		5AD9FB6A1FA98B6D00DEDD3C /* pingfan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD9FB691FA98B6D00DEDD3C /* pingfan.mp3 */; };
+		5AD9FB6C1FA9946300DEDD3C /* liudehua.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD9FB6B1FA9946300DEDD3C /* liudehua.mp3 */; };
+		5AD9FB6F1FA9D8E800DEDD3C /* TFTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD9FB6E1FA9D8E800DEDD3C /* TFTPServer.m */; };
+		5AFEBD841FA2C64D003964D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFEBD831FA2C64D003964D7 /* AppDelegate.m */; };
+		5AFEBD871FA2C64D003964D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFEBD861FA2C64D003964D7 /* ViewController.m */; };
+		5AFEBD8A1FA2C64D003964D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFEBD881FA2C64D003964D7 /* Main.storyboard */; };
+		5AFEBD8C1FA2C64D003964D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFEBD8B1FA2C64D003964D7 /* Assets.xcassets */; };
+		5AFEBD8F1FA2C64D003964D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFEBD8D1FA2C64D003964D7 /* LaunchScreen.storyboard */; };
+		5AFEBD921FA2C64D003964D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFEBD911FA2C64D003964D7 /* main.m */; };
+		F3EF934BBBEBAF26E230195E /* libPods-TFTPdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FBFBD78086726FE4F83C82 /* libPods-TFTPdemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11FBFBD78086726FE4F83C82 /* libPods-TFTPdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TFTPdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A55B2721FA88EC100092E96 /* TFTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTPClient.h; sourceTree = "<group>"; };
+		5A55B2731FA88EC100092E96 /* TFTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTPClient.m; sourceTree = "<group>"; };
+		5A55B2741FA88EC100092E96 /* TFTPPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTPPacket.h; sourceTree = "<group>"; };
+		5A55B2751FA88EC100092E96 /* TFTPPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTPPacket.m; sourceTree = "<group>"; };
+		5AD9FB671FA983DA00DEDD3C /* a.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = a.txt; sourceTree = "<group>"; };
+		5AD9FB691FA98B6D00DEDD3C /* pingfan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pingfan.mp3; sourceTree = "<group>"; };
+		5AD9FB6B1FA9946300DEDD3C /* liudehua.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = liudehua.mp3; sourceTree = "<group>"; };
+		5AD9FB6D1FA9D8E800DEDD3C /* TFTPServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTPServer.h; sourceTree = "<group>"; };
+		5AD9FB6E1FA9D8E800DEDD3C /* TFTPServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTPServer.m; sourceTree = "<group>"; };
+		5AFEBD7F1FA2C64D003964D7 /* TFTPdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFTPdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFEBD821FA2C64D003964D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AFEBD831FA2C64D003964D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AFEBD851FA2C64D003964D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AFEBD861FA2C64D003964D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AFEBD891FA2C64D003964D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AFEBD8B1FA2C64D003964D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AFEBD8E1FA2C64D003964D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AFEBD901FA2C64D003964D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFEBD911FA2C64D003964D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79CE82D19593C14380D56F79 /* Pods-TFTPdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFTPdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFTPdemo/Pods-TFTPdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA059B6DD605F1A25F7C042 /* Pods-TFTPdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFTPdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFTPdemo/Pods-TFTPdemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AFEBD7C1FA2C64D003964D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EF934BBBEBAF26E230195E /* libPods-TFTPdemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A55B2711FA88EC100092E96 /* TFTPkit */ = {
+			isa = PBXGroup;
+			children = (
+				5A55B2721FA88EC100092E96 /* TFTPClient.h */,
+				5A55B2731FA88EC100092E96 /* TFTPClient.m */,
+				5A55B2741FA88EC100092E96 /* TFTPPacket.h */,
+				5A55B2751FA88EC100092E96 /* TFTPPacket.m */,
+				5AD9FB6D1FA9D8E800DEDD3C /* TFTPServer.h */,
+				5AD9FB6E1FA9D8E800DEDD3C /* TFTPServer.m */,
+			);
+			path = TFTPkit;
+			sourceTree = "<group>";
+		};
+		5AFEBD761FA2C64D003964D7 = {
+			isa = PBXGroup;
+			children = (
+				5AFEBD811FA2C64D003964D7 /* TFTPdemo */,
+				5AFEBD801FA2C64D003964D7 /* Products */,
+				E6B5DD49DA4A9C67BA415E7D /* Pods */,
+				FEB11DA8F36C34E10CF72BAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFEBD801FA2C64D003964D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFEBD7F1FA2C64D003964D7 /* TFTPdemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFEBD811FA2C64D003964D7 /* TFTPdemo */ = {
+			isa = PBXGroup;
+			children = (
+				5AFEBD821FA2C64D003964D7 /* AppDelegate.h */,
+				5AFEBD831FA2C64D003964D7 /* AppDelegate.m */,
+				5AFEBD851FA2C64D003964D7 /* ViewController.h */,
+				5AFEBD861FA2C64D003964D7 /* ViewController.m */,
+				5AD9FB6B1FA9946300DEDD3C /* liudehua.mp3 */,
+				5AD9FB691FA98B6D00DEDD3C /* pingfan.mp3 */,
+				5AD9FB671FA983DA00DEDD3C /* a.txt */,
+				5A55B2711FA88EC100092E96 /* TFTPkit */,
+				5AFEBD881FA2C64D003964D7 /* Main.storyboard */,
+				5AFEBD8B1FA2C64D003964D7 /* Assets.xcassets */,
+				5AFEBD8D1FA2C64D003964D7 /* LaunchScreen.storyboard */,
+				5AFEBD901FA2C64D003964D7 /* Info.plist */,
+				5AFEBD911FA2C64D003964D7 /* main.m */,
+			);
+			path = TFTPdemo;
+			sourceTree = "<group>";
+		};
+		E6B5DD49DA4A9C67BA415E7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79CE82D19593C14380D56F79 /* Pods-TFTPdemo.debug.xcconfig */,
+				DCA059B6DD605F1A25F7C042 /* Pods-TFTPdemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEB11DA8F36C34E10CF72BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11FBFBD78086726FE4F83C82 /* libPods-TFTPdemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AFEBD7E1FA2C64D003964D7 /* TFTPdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFEBD951FA2C64D003964D7 /* Build configuration list for PBXNativeTarget "TFTPdemo" */;
+			buildPhases = (
+				D30CFE17AF91C6439C0E51F9 /* [CP] Check Pods Manifest.lock */,
+				5AFEBD7B1FA2C64D003964D7 /* Sources */,
+				5AFEBD7C1FA2C64D003964D7 /* Frameworks */,
+				5AFEBD7D1FA2C64D003964D7 /* Resources */,
+				9655C56A0AC5157B155FEF9C /* [CP] Embed Pods Frameworks */,
+				C128C55383E679F73B42AC95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFTPdemo;
+			productName = TFTPdemo;
+			productReference = 5AFEBD7F1FA2C64D003964D7 /* TFTPdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFEBD771FA2C64D003964D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = xll;
+				TargetAttributes = {
+					5AFEBD7E1FA2C64D003964D7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5AFEBD7A1FA2C64D003964D7 /* Build configuration list for PBXProject "TFTPdemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AFEBD761FA2C64D003964D7;
+			productRefGroup = 5AFEBD801FA2C64D003964D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AFEBD7E1FA2C64D003964D7 /* TFTPdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AFEBD7D1FA2C64D003964D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD9FB681FA983DA00DEDD3C /* a.txt in Resources */,
+				5AD9FB6C1FA9946300DEDD3C /* liudehua.mp3 in Resources */,
+				5AFEBD8F1FA2C64D003964D7 /* LaunchScreen.storyboard in Resources */,
+				5AFEBD8C1FA2C64D003964D7 /* Assets.xcassets in Resources */,
+				5AFEBD8A1FA2C64D003964D7 /* Main.storyboard in Resources */,
+				5AD9FB6A1FA98B6D00DEDD3C /* pingfan.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9655C56A0AC5157B155FEF9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFTPdemo/Pods-TFTPdemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C128C55383E679F73B42AC95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFTPdemo/Pods-TFTPdemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30CFE17AF91C6439C0E51F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AFEBD7B1FA2C64D003964D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFEBD871FA2C64D003964D7 /* ViewController.m in Sources */,
+				5A55B2761FA88EC100092E96 /* TFTPClient.m in Sources */,
+				5A55B2771FA88EC100092E96 /* TFTPPacket.m in Sources */,
+				5AD9FB6F1FA9D8E800DEDD3C /* TFTPServer.m in Sources */,
+				5AFEBD921FA2C64D003964D7 /* main.m in Sources */,
+				5AFEBD841FA2C64D003964D7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AFEBD881FA2C64D003964D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFEBD891FA2C64D003964D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AFEBD8D1FA2C64D003964D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFEBD8E1FA2C64D003964D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AFEBD931FA2C64D003964D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AFEBD941FA2C64D003964D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AFEBD961FA2C64D003964D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CE82D19593C14380D56F79 /* Pods-TFTPdemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 84QWDBAW3Q;
+				INFOPLIST_FILE = TFTPdemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xll.TFTPdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TFTPdemo/TFTPdemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AFEBD971FA2C64D003964D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA059B6DD605F1A25F7C042 /* Pods-TFTPdemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 84QWDBAW3Q;
+				INFOPLIST_FILE = TFTPdemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xll.TFTPdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TFTPdemo/TFTPdemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AFEBD7A1FA2C64D003964D7 /* Build configuration list for PBXProject "TFTPdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFEBD931FA2C64D003964D7 /* Debug */,
+				5AFEBD941FA2C64D003964D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFEBD951FA2C64D003964D7 /* Build configuration list for PBXNativeTarget "TFTPdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFEBD961FA2C64D003964D7 /* Debug */,
+				5AFEBD971FA2C64D003964D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AFEBD771FA2C64D003964D7 /* Project object */;
+}
